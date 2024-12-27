@@ -77,7 +77,7 @@ def main():
         距離ベースの類似性検索の限界を克服するために、
         ユーザーの質問に対して複数の視点を提供することが目標です。
         質問： {question}
-       """
+        """
     )
     query_generation_chain = (
         query_generation_prompt
